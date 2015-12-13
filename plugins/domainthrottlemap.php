@@ -51,7 +51,7 @@ class domainthrottlemap extends phplistPlugin {
         global $plugins;
 
         return array(
-            'phpList version 3.2.4 or later' => version_compare(VERSION, '3.2.4') > 0,
+            'phpList version 3.2.4 or later' => version_compare(VERSION, '3.2.3') > 0,
         );
     }
  

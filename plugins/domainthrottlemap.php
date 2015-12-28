@@ -19,8 +19,13 @@ class domainthrottlemap extends phplistPlugin {
       switch (strtolower($domain)) {
           
           case 'yahoo.co.uk':
+          case 'yahoo.fr':
     		  case 'yahoo.com':
     			  return "Yahoo"; break;	
+      		case 'onedrive.fr':
+      		case 'hotmail.fr' :
+      		case 'outlook.fr' :
+      		case 'live.fr' :
       		case 'onedrive.net':
       		case 'windowsmobile.co.uk':
       		case 'xbox.com':
